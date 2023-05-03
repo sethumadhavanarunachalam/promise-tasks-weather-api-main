@@ -1,0 +1,63 @@
+body{
+    background: url(https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*heading*/
+#title{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: #A8D22Aff -2px 0,
+                  bisque    3px 0;
+}
+.container{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    position: relative;
+    top: 50px;
+    border-radius: 10px;     
+}
+/*input box*/
+#city{
+    height: 40px;
+    width: 300px;
+    margin: 0px 15px 0px 5px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family:sans-serif;
+}
+/*serach button*/
+#search{
+    border: none;
+}
+#search i:hover{
+    color:#379237;
+    transition: ease-in-out;
+}
+.card-header i{
+    color:#EA4335;
+}
+.card-body{    
+    text-align: center;
+    height: 300px;
+    padding-top: 60px;
+    background-color: #F0EBCE;  
+}
+#location{    
+    text-transform: uppercase;
+    color:#9A1663;
+    font-family:'Poppins', sans-serif;;
+}
+#weather{
+    color:#5F9DF7;
+    font-family:'Poppins', sans-serif;
+}
+#temperature{
+   color: #DC5F00; 
+}
+    
